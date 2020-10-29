@@ -7,6 +7,7 @@ require("babel-register")({
 exports.config = {
   specs: ['spec.js'],
   framework: 'jasmine',
+  directConnect: true,
 
   onPrepare: () => {
       // set browser size...
